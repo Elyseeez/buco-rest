@@ -10,8 +10,6 @@
         background-repeat: no-repeat;
         position: absolute;
         opacity: 0.4;
-        // max-width: 50vh;
-        // background-size: 50% 100%;
         width: 626px;
         height: 723px;
         top: -350px;
@@ -24,7 +22,6 @@
         text-transform: uppercase;
     }
     &__content { 
-        // margin: 0 auto;
             position: relative;
             margin-top: 142px;
             max-width: 980px;
@@ -32,7 +29,6 @@
             background-color: #C4C4C4;      
             left: 40%;
             border: 1px solid black;
-            // float: right;
             
             
     }
@@ -101,7 +97,6 @@
         background-color: #C4C4C4;      
         left: -350px;
         border: 1px solid black;
-        // float: left;
     }
     &__bar-wrapper { 
         padding: 99px 30px 99px 30px;
@@ -187,7 +182,7 @@
     }
 
     ul{ 
-        // display: inline-block;
+        
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }

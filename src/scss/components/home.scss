@@ -1,6 +1,5 @@
 .home {    
     width: 100%;
-    // height: 100%;
     text-align: center;
     position: relative;
     &:before { 
@@ -10,8 +9,6 @@
     background-repeat: no-repeat;
     position: absolute;
     opacity: 0.4;
-    // max-width: 50vh;
-    // background-size: 50% 100%;
     width: 626px;
     height: 723px;
     top: -350px;
@@ -28,7 +25,6 @@
             content: "";
             background-image: url('../../assets/redslash.png');
             background-repeat: no-repeat;
-            // padding-left: 30px;  
             display: block;
             width: 360px;
             height: 254px;
@@ -70,8 +66,6 @@
         }
         &__content-reserv {
             padding: 99px 30px 99px 30px;
-            // display: flex;
-            // align-items: center;
 
         }
         &__content-title  { 
@@ -94,7 +88,6 @@
                 content: "";
                 background-image: url('../../assets/X.png');
                 background-repeat: no-repeat;
-                // padding-left: 30px;  
                 display: block;
                 width: 76px;
                 height: 84px;
