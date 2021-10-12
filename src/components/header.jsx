@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 import logo from '../assets/logo.svg'
 
 
@@ -11,9 +11,9 @@ function Header () {
             </div>
             <div  className="header__menu">
                 <ul>
-                <li><Link to='/reservation' className="header__link"> Reservations</Link> </li>
-                    <li><Link to='/menu' className="header__link"> Menu</Link></li>
-                    <li><Link to='/story' className="header__link"> Our Story</Link></li>
+                <li><NavLink to='/reservation' className="header__link" activeClassName="active"> Reservations</NavLink> </li>
+                    <li><NavLink to='/menu' className="header__link" activeClassName="active"> Menu</NavLink></li>
+                    <li><NavLink to='/story' className="header__link" activeClassName="active"> Our Story</NavLink></li>
                 </ul>
             </div>
         </div>
