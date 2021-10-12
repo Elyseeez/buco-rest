@@ -1,0 +1,56 @@
+// @import 'fonts';
+// @import 'variables';
+@import 'libs/normalize';
+
+@import 'components/all';
+
+
+body {
+  background-color: #E5E5E5 !important;
+  padding: 50px 0;
+  // height: 3800px;
+  
+  @media (max-width: 768px) {
+    padding: 20px 0;
+  }
+
+  .title { 
+    font-size: 33px;
+    text-transform: uppercase;
+  }
+  .subtitle { 
+    font-size: 30px; 
+  }
+  .buttonx {
+    position: relative;
+    width: 249.54px;
+    height: 55px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 35px;
+    font-size: 33px;
+    text-transform: uppercase;
+    &:before {
+    content: "";
+    background-image: url('../assets/X.png');
+    background-repeat: no-repeat;
+    padding-right: 30px;  
+    display: block;
+    width: 76px;
+    height: 84px;
+    position: absolute;
+    top: -10px;
+    
+    
+     }
+}
+  li {
+    margin-top: 10px;
+    }
+
+
+    a{ 
+      text-decoration: none;
+      color: black;
+    }
+}
